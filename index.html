@@ -51,10 +51,10 @@
 
              <br>
 
-            <select name="Gender" id="gender" required>
+            <select name="Gender" id="idForInput" required>
 
                 <option value="" id="genderPlaceholder" disabled selected hidden>
-                    Enter your Gender
+                    Enter your Gender   
                 </option>
 
                 <option value="Male">
@@ -78,65 +78,6 @@
                 </option>
 
             </select>
-
-        </div>
-
-        
-
-        <div class="formControl">
-            <label for="Process" id="labelProcess">
-                How would you rate our ticketing process?
-            </label>
-
-             <br>
-
-             <div class="rating">
-  
-                <input type="radio" name="rating" value="5" id="5">
-                <label for="5">
-                    ⭐
-                </label>
-                
-                <input type="radio" name="rating" value="4" id="4">
-                <label for="4">
-                    ☆
-                </label>
-                
-                <input type="radio" name="rating" value="3" id="3">
-                <label for="3">
-                    ☆
-                </label>
-                
-                <input type="radio" name="rating" value="2" id="2">
-                <label for="2">
-                    ☆
-                </label>
-                
-                <input type="radio" name="rating" value="1" id="1">
-                <label for="1">
-                    ☆
-                </label>
-              
-              </div>
-
-        </div>
-
-        <div class="formControl">
-            <label for="Trains" id="labelTrains">
-                How would you rate our trains?
-            </label>
-
-             <br>
-
-             <div class="rating">
-  
-                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
-                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
-                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
-                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
-                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
-              
-              </div>
 
         </div>
 
@@ -185,6 +126,14 @@
 
              <br>   
 
+             <textarea id="idForInput" placeholder="Enter your feedback here..."></textarea>
+
+        </div>
+
+        <div class="btn">
+            <button type="submit" name="Submit">
+                Submit
+            </button>
         </div>
 
     </form>
