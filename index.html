@@ -14,7 +14,7 @@
     </h1>
 
     <h4>
-        Train passenger satisfaction questionnaire <br><br>
+        Train passenger satisfaction questionnaire   
         Dear Sir / Madam,
 
         thank you for visiting us. By filling out this 5-10 minute survey, you will help us obtain the very best results.
@@ -27,7 +27,9 @@
                 Name
             </label>
 
-            <input type="text" id="name" placeholder="Enter your name">
+             <br>
+
+            <input type="text" id="idForInput" placeholder="Enter your name">
 
         </div>
 
@@ -36,7 +38,9 @@
                 Age
             </label>
 
-            <input type="text" id="age" placeholder="Enter your Age">
+             <br>   
+
+            <input type="text" id="idForInput" placeholder="Enter your Age">
 
         </div>
 
@@ -45,8 +49,14 @@
                 Gender
             </label>
 
-            <select name="Gender" id="gender">
-                
+             <br>
+
+            <select name="Gender" id="gender" required>
+
+                <option value="" id="genderPlaceholder" disabled selected hidden>
+                    Enter your Gender
+                </option>
+
                 <option value="Male">
                     Male
                 </option>
@@ -70,40 +80,44 @@
             </select>
 
         </div>
+
         
-        <div class="formControl">
-            <label for="Occupation" id="labelOccupation">
-                Which of the following describes you best?
-            </label>
-
-            <input type="text" id="name" placeholder="Enter your name">
-
-        </div>
-
-        <div class="formControl">
-            <label for="Frequency" id="labelFrequency">
-                How often do you travel by train?
-            </label>
-
-            <input type="text" id="name" placeholder="Enter your name">
-
-        </div>
-
-        <div class="formControl">
-            <label for="Rate" id="labelRate">
-                How would you rate our railway stations and platforms?
-            </label>
-
-            <input type="text" id="name" placeholder="Enter your name">
-
-        </div>
 
         <div class="formControl">
             <label for="Process" id="labelProcess">
                 How would you rate our ticketing process?
             </label>
 
-            <input type="text" id="name" placeholder="Enter your name">
+             <br>
+
+             <div class="rating">
+  
+                <input type="radio" name="rating" value="5" id="5">
+                <label for="5">
+                    ⭐
+                </label>
+                
+                <input type="radio" name="rating" value="4" id="4">
+                <label for="4">
+                    ☆
+                </label>
+                
+                <input type="radio" name="rating" value="3" id="3">
+                <label for="3">
+                    ☆
+                </label>
+                
+                <input type="radio" name="rating" value="2" id="2">
+                <label for="2">
+                    ☆
+                </label>
+                
+                <input type="radio" name="rating" value="1" id="1">
+                <label for="1">
+                    ☆
+                </label>
+              
+              </div>
 
         </div>
 
@@ -112,7 +126,17 @@
                 How would you rate our trains?
             </label>
 
-            <input type="text" id="name" placeholder="Enter your name">
+             <br>
+
+             <div class="rating">
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
 
         </div>
 
@@ -121,7 +145,36 @@
                 How would you rate the train service we provide?
             </label>
 
-            <input type="text" id="name" placeholder="Enter your name">
+             <br>
+
+             <div class="rating">
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
+
+        </div>
+
+        <div class="formControl">
+            <label for="Rate" id="labelRate">
+                How would you rate our railway stations and platforms?
+            </label>
+
+             <br>
+
+             <div class="rating">
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
 
         </div>
 
@@ -130,7 +183,7 @@
                 Please tell us what can we do to improve:
             </label>
 
-            <input type="text" id="name" placeholder="Enter your name">
+             <br>   
 
         </div>
 
